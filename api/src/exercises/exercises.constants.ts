@@ -1,0 +1,2 @@
+export const MAX_EXERCISES_PER_USER = 10;
+export const MAX_EXERCISE_CONTENT_LENGTH = 100;
