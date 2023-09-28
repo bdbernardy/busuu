@@ -21,6 +21,9 @@ async function bootstrap() {
   const userRepository = app.get(UsersRepository);
   await userRepository.createUsers();
 
+  // In a production environment, I prefer using a reverse-proxy to have the same origin and disable cors
+  app.enableCors();
+
   await app.listen(3000);
 }
 bootstrap();

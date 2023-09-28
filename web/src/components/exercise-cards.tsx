@@ -1,4 +1,4 @@
-import { ExerciseDto } from '@/services/api';
+import { ExerciseDto } from "@/dtos/exercise.dto";
 import dayjs from "dayjs";
 
 interface ExerciseCardsProps {
