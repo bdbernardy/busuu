@@ -13,7 +13,7 @@ I spent `1h30 on the backend`. I had working examples of everything that was req
 
 I spent `3h30 on the frontend` (including 2h on the styling). I have been working with a Design System for the past 2 years, and I rarely have to write CSS. Having the Tailwind UI components for inspiration helped, but not as much as I had hoped for.
 
-### Improvements
+### Improvements
 With more time, I would have added the following:
 - Better isolate UI components. Tailwind css is verbose. The recommended approach is to create component libraries. I would have created separate components for the links button, the buttons, etc. with a proper styling.
 - Add tests to the frontend project. I would have used React Testing Library and nock.
