@@ -1,5 +1,5 @@
 ## Busuu Code Assignment
-I created two projects for the assignment: a NestJs app for the backend (`/api`) and a NextJs app for the frontend (`web`). Both projects must be installed properly and running for the application to work. Each folder has a `README.md` file with instructions on how to set up the project.
+I created two projects for the assignment: a NestJs app for the backend (`/api`) and a NextJs app for the frontend (`/web`). Both projects must be installed properly and running for the application to work. Each folder has a `README.md` file with instructions on how to set up the project.
 
 ### Frameworks
 I choose NestJs for the backend because it’s the framework I use everyday, I had plenty of code samples I could reuse, and it comes with everything I needed for the assignment out of the box: Typescript, routing, validation, serialization, ORM-support, and a testing framework.
