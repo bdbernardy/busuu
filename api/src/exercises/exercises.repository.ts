@@ -35,6 +35,8 @@ export class ExercisesRepository {
      * that could result in more than 10 exercises being created for the same user.
      *
      * With SQLLite, this can be done by running the operations in a transaction (transactions set an exclusive database-level lock).
+     *
+     * With a database like Postgresql, I would have used a row-level lock mechanism to avoid blocking the entire database.
      */
     return this.dataSource.transaction(async (manager) => {
       const exerciseRepository = manager.getRepository(Exercise);
